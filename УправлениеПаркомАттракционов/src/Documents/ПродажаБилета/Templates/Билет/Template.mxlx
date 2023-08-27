@@ -101,7 +101,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Аттракцион</v8:content>
+							<v8:content>Тип билета:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -109,7 +109,7 @@
 			<c>
 				<c>
 					<f>9</f>
-					<parameter>Аттракцион</parameter>
+					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 			<c>
@@ -130,7 +130,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма документа</v8:content>
+							<v8:content>Кол-во посещений</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -138,6 +138,35 @@
 			<c>
 				<c>
 					<f>11</f>
+					<parameter>КоличествоПосещений</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<columnsID>6762032c-71de-47b0-9aea-f7cc0867881d</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма документа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>12</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
@@ -149,8 +178,8 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<height>6</height>
-	<vgRows>6</vgRows>
+	<height>7</height>
+	<vgRows>7</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -171,7 +200,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>5</endRow>
+			<endRow>6</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -185,7 +214,7 @@
 		<width>640</width>
 	</format>
 	<format>
-		<width>128</width>
+		<width>163</width>
 	</format>
 	<format>
 		<width>144</width>
@@ -213,6 +242,7 @@
 	<format>
 		<font>1</font>
 		<width>144</width>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
@@ -221,11 +251,22 @@
 	<format>
 		<font>1</font>
 		<width>368</width>
+		<horizontalAlignment>Left</horizontalAlignment>
 	</format>
 	<format>
 		<font>1</font>
 		<width>144</width>
-		<horizontalAlignment>Right</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Block</textPlacement>
+		<fillType>Parameter</fillType>
+		<format/>
+		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<font>1</font>
+		<width>144</width>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Block</textPlacement>
 		<fillType>Parameter</fillType>
